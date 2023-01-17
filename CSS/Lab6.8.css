@@ -1,0 +1,76 @@
+body {
+  color: black;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 1px;
+  /* margin-right: 45%; */
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+/* Khối nội dung được căn giữa và có kích thước cố định 825px. */
+.content {
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  width: 825px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Thẻ h2 có thêm khoảng đệm 15px theo cả 4 phía. */
+
+.product_name {
+  text-align: center;
+  background-color: rgb(224 224, 224);
+  font-size: 28px;
+  margin-top: 2px;
+  padding: 15px;
+}
+
+.product_price {
+  font-size: 20px;
+}
+
+/* Tiêu đề phụ h3 có thêm khoảng trắng phía trên 30px. */
+.product_details {
+  font-size: 23px;
+  margin-top: 30px;
+}
+
+/* Chữ FREE SHIPPING có thêm khoảng trắng phía dưới 20px. */
+.shaded-text {
+  color: gray;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+/* Danh sách ul – li có thêm khoảng trắng bên trái 20px, các li cách nhau khoảng 10px. */
+
+.list {
+  list-style-type: square;
+  margin-left: 20px;
+}
+.list li {
+  margin-bottom: 10px;
+}
+
+/* - Button có thêm khoảng đệm 15px theo cả 4 phía, thêm phần viền phía trên với nét liền màu đen. */
+.button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  border-top: 4px solid black;
+  width: 100%;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+}

@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  color: black;
+  font-family: sans-serif;
+  font-size: 14px;
+  /* margin-right: 45%; */
+  margin: p0x;
+}
+
+/* Khối nội dung được căn giữa v�? có kích thước c�? định 825px. */
+.main-content {
+  position: relative;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  width: 825px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+/* Thẻ h2 có thêm khoảng đệm 15px theo cả 4 phía. */
+
+.product-name h2 {
+  text-align: center;
+  background-color: rgb(224 224, 224);
+  font-size: 28px;
+  margin-top: 2px;
+  padding: 15px;
+}
+
+.product-price {
+  font-size: 20px;
+}
+
+/* Tiêu đ�? phụ h3 có thêm khoảng trắng phía trên 30px. */
+.product-details h3 {
+  font-size: 23px;
+  margin-top: 30px;
+}
+
+/* Chữ FREE SHIPPING có thêm khoảng trắng phía dưới 20px. */
+.shaded-text {
+  color: gray;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+/* Danh sách ul �? li có thêm khoảng trắng bên trái 20px, các li cách nhau khoảng 10px. */
+
+.list {
+  list-style-type: square;
+  margin-left: 20px;
+}
+.list li {
+  margin-bottom: 10px;
+}
+
+/* - Button có thêm khoảng đệm 15px theo cả 4 phía, thêm phần viền phía trên với nét liền m�?u đen. */
+.add-to-cart {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  border-top: 4px solid black;
+  width: 100%;
+}
+.add-to-cart:hover {
+  background-color: white;
+  color: black;
+}
+
+.sale {
+  background-color: red;
+  border: 0;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: -12px;
+  left: -20px;
+}
+
+ul.color-box {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.color-box li {
+  padding-left: 15px;
+  margin-left: 10px;
+  display: inline;
+}
+
+li.black {
+  background-color: black;
+}
+
+li.blue {
+  background-color: blue;
+}
+
+li.red {
+  background-color: red;
+}
+
+li.yellow {
+  background-color: yellow;
+}
+li.green {
+  background-color: yellowgreen;
+}
+
+li.brown {
+  background-color: brown;
+}
+/* ================================================= */
+
+.product-details h3 {
+  margin-top: 10px;
+}
+.product-info {
+  width: 243px;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.product-img {
+  margin-right: 40px;
+}
+
+.container {
+  box-sizing: border-box;
+  float: left;
+}
+
+.left {
+  float: left;
+  width: 200px;
+}
+
+.product-price {
+  float: left;
+  margin-right: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.shaded-text {
+  float: left;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.clearfix-2::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.right {
+  float: right;
+  margin-right: 0px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
